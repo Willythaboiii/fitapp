@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>FitApp - Home</title>
+
+<style>
+body{
+  margin:0;
+  font-family:Arial;
+  background:#f5f5f5;
+}
+
+.header{
+  background:#4facfe;
+  color:white;
+  padding:20px;
+  text-align:center;
+  font-size:20px;
+}
+
+.container{
+  padding:20px;
+}
+
+.card{
+  background:white;
+  padding:20px;
+  margin-bottom:15px;
+  border-radius:12px;
+  box-shadow:0 5px 10px rgba(0,0,0,0.1);
+  cursor:pointer;
+}
+
+.navbar{
+  position:fixed;
+  bottom:0;
+  width:100%;
+  background:white;
+  display:flex;
+  justify-content:space-around;
+  padding:10px 0;
+  box-shadow:0 -2px 10px rgba(0,0,0,0.1);
+}
+
+.navbar div{
+  text-align:center;
+  font-size:12px;
+  cursor:pointer;
+}
+</style>
+
+</head>
+<body>
+
+<div class="header">
+  Bienvenido a FitApp
+</div>
+
+<div class="container">
+
+  <div class="card" onclick="location.href='rutinas.html'">
+    💪 Rutinas
+  </div>
+
+  <div class="card" onclick="location.href='ejercicios.html'">
+    🏋️ Ejercicios
+  </div>
+
+  <div class="card" onclick="location.href='progreso.html'">
+    📊 Progreso
+  </div>
+
+</div>
+
+<div class="navbar">
+  <div onclick="location.href='home.html'">Home</div>
+  <div onclick="location.href='rutinas.html'">Rutinas</div>
+  <div onclick="location.href='perfil.html'">Perfil</div>
+</div>
+
+</body>
+</html>
